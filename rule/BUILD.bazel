@@ -1,0 +1,6 @@
+py_binary(
+    name = "bin",
+    main = "version.py",
+    srcs = ["version.py"],
+    visibility = ["//visibility:public"],
+)
